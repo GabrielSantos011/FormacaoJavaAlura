@@ -4,7 +4,7 @@ public class Teste {
 	/**
 	 * isto é uma documentação
 	 */
-	public static void main(String[] args) { //este é o método onde a aplicação se inicia
+	public static void main(String[] args) { // este é o método onde a aplicação se inicia
 		/*
 		 * comentário longo
 		 */
@@ -38,7 +38,18 @@ public class Teste {
 			System.out.println("Você é menor de idade");
 		}
 
-		//laços de repetição
+		switch (idade) {
+		case 17:
+			System.out.println("17 anos");
+			break;
+		case 18:
+			System.out.println("18 anos");
+			break;
+		default:
+			System.out.println("Outra idade");
+		}
+
+		// laços de repetição
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i + 1);
 		}
@@ -54,6 +65,10 @@ public class Teste {
 			System.out.println(i + 1);
 			i++;
 		} while (i < 10);
+
+		// podemos fazer um casting
+		double n1 = 1;
+		float n2 = (float) n1;
 
 	}
 
