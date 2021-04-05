@@ -20,6 +20,8 @@ public class Gerente extends Funcionario {
 		 * há também a possibilidade de uma sobrecarga que seria criar um método com o
 		 * mesmo nome porém com retorno e/ou parametros diferentes
 		 */
+		//sobreescrita é um tipo de polimorfismo um método porém com ações diferentes entre as classes 
+		System.out.println("método de bonificacao do Gerente");
 		return super.getBonificacao() + super.salario; //super pq não é propriamente mas sim da super classe
 	}
 

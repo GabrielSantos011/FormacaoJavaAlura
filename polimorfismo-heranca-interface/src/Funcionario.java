@@ -11,6 +11,7 @@ public class Funcionario { // classe mãe, classe base, super classe
 
 	public double getBonificacao() {// apesar do nome do método ser get
 									// não se trata de um atributo, algo comum tb
+		System.out.println("método de bonificacao do funcionario");
 		return this.salario * 0.1;
 	}
 

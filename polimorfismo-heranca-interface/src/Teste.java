@@ -32,6 +32,16 @@ public class Teste {
 
 		System.out.println(g1.getBonificacao());
 
+		System.out.println("--------------------");
+		// PARA EXEMPLIFICAR O POLIMORFISMO
+		// O MÉTODO QUE RECEBE FUNCIONARIO ACEITA RECEBER GERENTE E CHAMA O MÉTODO
+		// SOBREESCRITO DE GERENTE
+		ControleBonificacao controle = new ControleBonificacao();
+		controle.registraBonificacao(f1);
+		System.out.println(ControleBonificacao.getValorBonificacao());
+		controle.registraBonificacao(g1);
+		System.out.println(ControleBonificacao.getValorBonificacao());
+
 	}
 
 }
