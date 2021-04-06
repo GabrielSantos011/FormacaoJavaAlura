@@ -1,5 +1,7 @@
-public class Conta {
-
+public abstract class Conta {
+//algo abstrato é algo não concreto então com esta pavra eu não deixo dar um new Funcionario(),
+//apenas de seus filhos - até pq não queremos que haja só uma conta, deve ser corrente ou poupança
+	// classes abstratas podem ter atributos, métodos abstratos ou não e construtores normalmente - só n podemos dar o new
 	private int agencia;
 	private int conta;
 	private double saldo;
@@ -16,10 +18,10 @@ public class Conta {
 	public Conta(Cliente titular) {
 		this(1111, 111111, titular);
 	}
-	
+
 	public Conta(int agencia, int conta) {
 		this.agencia = agencia;
-		this.conta=conta;
+		this.conta = conta;
 	}
 
 	public int getAgencia() {

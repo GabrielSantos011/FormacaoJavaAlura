@@ -3,18 +3,20 @@ public class Teste {
 
 	public static void main(String[] args) {
 
-		Funcionario f1 = new Funcionario();
-		f1.setNome("Joao");
-		f1.setCpf("235568413");
-		f1.setSalario(5000.0);
-
-		System.out.println(f1.getNome());
-		System.out.println(f1.getCpf());
-		System.out.println(f1.getSalario());
-
-		System.out.println(f1.getBonificacao());
-
-		System.out.println("------------------");
+		/*código comentado por conta da nova implementação de abstract*/
+		
+//		Funcionario f1 = new Funcionario();
+//		f1.setNome("Joao");
+//		f1.setCpf("235568413");
+//		f1.setSalario(5000.0);
+//
+//		System.out.println(f1.getNome());
+//		System.out.println(f1.getCpf());
+//		System.out.println(f1.getSalario());
+//
+//		System.out.println(f1.getBonificacao());
+//
+//		System.out.println("------------------");
 
 		Gerente g1 = new Gerente();
 		g1.setNome("Marco");
@@ -37,8 +39,8 @@ public class Teste {
 		// O MÉTODO QUE RECEBE FUNCIONARIO ACEITA RECEBER GERENTE E CHAMA O MÉTODO
 		// SOBREESCRITO DE GERENTE
 		ControleBonificacao controle = new ControleBonificacao();
-		controle.registraBonificacao(f1);
-		System.out.println(ControleBonificacao.getValorBonificacao());
+//		controle.registraBonificacao(f1);
+//		System.out.println(ControleBonificacao.getValorBonificacao());
 		controle.registraBonificacao(g1);
 		System.out.println(ControleBonificacao.getValorBonificacao());
 
