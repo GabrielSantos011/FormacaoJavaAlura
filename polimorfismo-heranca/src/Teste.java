@@ -3,7 +3,9 @@ public class Teste {
 
 	public static void main(String[] args) {
 
-		/*código comentado por conta da nova implementação de abstract*/
+		/*código comentado por conta da nova implementação de abstract,
+		 * ou seja, não posso dar new, mas caso funcionario não fosse abstract
+		 * poderiamos tranquilamente executar esse código*/
 		
 //		Funcionario f1 = new Funcionario();
 //		f1.setNome("Joao");
