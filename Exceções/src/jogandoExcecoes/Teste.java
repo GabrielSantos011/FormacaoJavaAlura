@@ -31,6 +31,8 @@ public class Teste {
 		throw ex;// nestes momento joguei a exceção, ou seja o código vai ser paralisado aqui
 		// tudo que eu colocar aqui para baixo já da erro pq ao jogar a exceção o código é 
 		//interrompido - por isso vou comentar o código abaixo
+		//Aqui é diferente de um caso que pode vir a causar um erro (como NullPointer), aqui o
+		//erro já está lançado.
 		
 		//System.out.println("Fim do metodo2");
 	}
