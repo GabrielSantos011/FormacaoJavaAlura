@@ -10,6 +10,7 @@ public class Teste {
 		//o pacote faz parte do nome da classe (Full Qualified Name - FQN)
 		//devemos mostrar onde a classe está definindo o nome completo (se estiver no
 		//mesmo pacote não é necessário)
+		//em um mesmo pacote não podemos ter duas classes com nomes iguais mas em pacotes diferentes sim.
 		
 		br.com.alura.java.model.Entidade e = new br.com.alura.java.model.Entidade();
 
