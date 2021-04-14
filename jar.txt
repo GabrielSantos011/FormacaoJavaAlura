@@ -1,0 +1,13 @@
+Jar (Java Archive):
+primeiramente, o jar é um zip onde ficam os códigos compilados
+Para fazer no eclipse:
+vá até o projeto clique com o botão diteito e selecione export>java>jar
+selecionar onde que salvar e dar finish
+
+é muito comum importarmos jars para utilizarmos soluções que já foram feitas
+
+Para importar um jar:
+colocamos uma pasta de bibliotecas no nosso projeto no mesmo diretório de src geralmente chamada libs, copiamos nosso jar para lá e clicamos nele com o botão direiro build path>add to build path
+
+há ferramentas que auxiliam com a questão de versionamento de jars, uma bem conhecida do mundo java é o maven.
+nos ajuda com as dependencias.
