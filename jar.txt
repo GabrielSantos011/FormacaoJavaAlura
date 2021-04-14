@@ -3,6 +3,7 @@ primeiramente, o jar é um zip onde ficam os códigos compilados
 Para fazer no eclipse:
 vá até o projeto clique com o botão diteito e selecione export>java>jar
 selecionar onde que salvar e dar finish
+(caso queira criar um jar executavel eu não dou finish sigo dando next até chegar a opção de definir qual é a classe main)
 
 é muito comum importarmos jars para utilizarmos soluções que já foram feitas
 
