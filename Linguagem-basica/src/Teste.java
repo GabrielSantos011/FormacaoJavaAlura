@@ -1,14 +1,15 @@
 /**
  * 
  * @author gabriel
- *@version 1.0
+ * @version 1.0
  */
 public class Teste {
 
 	/**
 	 * isto é uma documentação chamada javadoc -documentação de devs para devs
 	 * o ideal é que acima de todos os métodos  publicos (somente os publicos)
-	 * assim podemos ir em project selecionar o progeto e mandar ele gerar nosso javadoc
+	 * assim podemos ir em project selecionar o progeto e mandar ele gerar nosso javadoc 
+	 * (no mesmo diretorio de src)
 	 * uma pagina html com as informações
 	 * no javadoc temos algumas informações por notação como
 	 * @author Gabriel
