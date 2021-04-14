@@ -1,8 +1,17 @@
-
+/**
+ * 
+ * @author gabriel
+ *@version 1.0
+ */
 public class Teste {
 
 	/**
-	 * isto é uma documentação
+	 * isto é uma documentação chamada javadoc -documentação de devs para devs
+	 * o ideal é que acima de todos os métodos  publicos (somente os publicos)
+	 * assim podemos ir em project selecionar o progeto e mandar ele gerar nosso javadoc
+	 * uma pagina html com as informações
+	 * no javadoc temos algumas informações por notação como
+	 * @author Gabriel
 	 */
 	public static void main(String[] args) { // este é o método onde a aplicação se inicia
 		/*
