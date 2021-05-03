@@ -1,0 +1,1 @@
+A classe Object é a classe mãe de todas, mesmo que não use o extends todos herdam dela. dela existem alguns métodos padrões e que por boas praticas podemos sobreescrever como o toString();
