@@ -25,7 +25,7 @@ public class TesteArraysPrimitivos {
 			System.out.println(numeros[i]);
 		}
 		
-		//exceção por estourar o tamanho -  numeros vai de 0 a 4 portanto se eu tentar
+		//exceção por estourar o tamanho -  numeros vai de 0 a 9 portanto se eu tentar
 		//usar alguma casa que n existe dara uma exceção
 		
 		System.out.println(numeros[10]);
