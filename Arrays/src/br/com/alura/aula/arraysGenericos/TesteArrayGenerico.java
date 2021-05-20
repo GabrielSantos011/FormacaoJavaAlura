@@ -1,9 +1,4 @@
-package br.com.alura.aula;
-
-import br.com.alura.aula.arraysGenericos.Cliente;
-import br.com.alura.aula.arraysGenericos.Conta;
-import br.com.alura.aula.arraysGenericos.ContaCorrente;
-import br.com.alura.aula.arraysGenericos.ContaPoupanca;
+package br.com.alura.aula.arraysGenericos;
 
 public class TesteArrayGenerico {
 	
