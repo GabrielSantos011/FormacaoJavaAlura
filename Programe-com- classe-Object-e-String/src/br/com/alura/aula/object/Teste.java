@@ -8,5 +8,5 @@ public class Teste {
 		// "Esta é a classe conta" pois sobreescrevemos o toString de object
 	}
 	
-	//pode ser interessante sobreescrever o equals pois o .contains em uma lista chama este método
+	//pode ser interessante sobreescrever o equals() pois o contains() em uma lista chama este método e o hashCode()
 }
