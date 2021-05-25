@@ -10,7 +10,7 @@ public class ListaComGenerics {
 		//lista generics - exclusiva para conta
 		ArrayList<Conta> lista = new ArrayList<>();
 		
-		Conta c =new Conta();
+		Conta c =new Conta(1111);
 		
 		lista.add(c);
 		

@@ -19,7 +19,7 @@ public class Lista {
 		//atingido ele cria outro array e transfere os dados
 		//é melhor utilizado para iterações
 		
-		Conta c = new Conta();
+		Conta c = new Conta(1111111111);
 		
 		lista.add(c);
 		
