@@ -27,6 +27,8 @@ public class OrdenacaoList {
 		
 		System.out.println("-----------------------");
 		
+		
+		//function object - objeto apenas para executarmos uma função
 		NumeroContaComparator arg = new NumeroContaComparator();
 		lista.sort(arg);
 		
@@ -41,7 +43,7 @@ public class OrdenacaoList {
 		//para isso nossa classe, nesse caso conta, tera que implementar a interface Comparable
 		//essa interface nos fará implementar o metodo compareTo(T arg1) que nos mostrará qual é a ordem natural
 		//vc faz esse método retornar int (negativo,0 e positivo) como na nossa classe logo abaixo
-		//fazendo isso tb podemos ao invé de usar o Collections.sort(lista) usarmos lista.sort(null) mas isso não é recomendado
+		//fazendo isso tb podemos ao invés de usar o Collections.sort(lista) usarmos lista.sort(null) mas isso não é recomendado
 	}
 }
 

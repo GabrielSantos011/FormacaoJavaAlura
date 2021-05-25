@@ -2,9 +2,9 @@ package Lista;
 
 public class Conta {
 	
-	private long numeroConta;
+	private int numeroConta;
 	
-	public Conta(long n) {
+	public Conta(int n) {
 		this.numeroConta = n;
 	}
 
@@ -12,7 +12,7 @@ public class Conta {
 	public String toString() {
 		return "Esta é a conta " + numeroConta;
 	}
-	public long getNumeroConta() {
+	public int getNumeroConta() {
 		return this.numeroConta;
 	}
 }
