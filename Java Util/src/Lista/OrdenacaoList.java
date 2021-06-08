@@ -8,11 +8,11 @@ import java.util.List;
 public class OrdenacaoList {
 
 	public static void main(String []args) {
-		Conta c1 = new Conta(1111111);
-		Conta c2 = new Conta(55555555);
-		Conta c3 = new Conta(222222222);
-		Conta c4 = new Conta(4444444);
-		Conta c5 = new Conta(1010101010);
+		Conta c1 = new Conta(1);
+		Conta c2 = new Conta(4);
+		Conta c3 = new Conta(3);
+		Conta c4 = new Conta(2);
+		Conta c5 = new Conta(5);
 
 		List<Conta> lista = new ArrayList<>();
 		lista.add(c1);
@@ -32,13 +32,12 @@ public class OrdenacaoList {
 		NumeroContaComparator arg = new NumeroContaComparator();
 		lista.sort(arg);
 		
+		//a maneira antiga que usavamos era
+//		Collections.sort(lista, new NumeroContaComparator());//reverse(lista) para colocar na ordem reversa de como está
+
 		for (Conta conta : lista) {
 			System.out.println(conta);
 		}
-		
-		//a maneira antiga que usavamos era
-		Collections.sort(lista, new NumeroContaComparator());//reverse(lista) para ordenar decrescente
-		
 		//ou apenas Collection.sort(lista) - mas para isso precisamos definir uma ordem natural no tipo da lista
 		//para isso nossa classe, nesse caso conta, tera que implementar a interface Comparable
 		//essa interface nos fará implementar o metodo compareTo(T arg1) que nos mostrará qual é a ordem natural
