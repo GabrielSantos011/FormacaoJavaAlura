@@ -13,7 +13,7 @@ public class TesteEscrita {
 		
 		//Fluxo de saída de dados
 		OutputStream fos = new FileOutputStream("lorem2.txt");// este arquivo pode existir ou será criado na raiz do projeto
-		//pega o buffered e transforma em bytes
+		//binario para caracteres
 		Writer osw = new OutputStreamWriter(fos);
 		//de caracteres passamos a um nivel mais alto de linhas
 		BufferedWriter bw = new BufferedWriter(osw);
