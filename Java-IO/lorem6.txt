@@ -1,0 +1,4 @@
+testando o print writer -1 linha
+println já quebra linha automatico
+
+Já o print() n quebra linha automatico
